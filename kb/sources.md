@@ -1,0 +1,20 @@
+# Sources
+
+All sources observed 2026-10-18; inspected live pages supersede stale indexed/cached snippets. Confidence applies to each claim, not automatically to an entire platform.
+
+| ID | Source | URL | Supports / limits |
+|---|---|---|---|
+| S1 | Google Maps / current Google Business panel | https://www.google.com/maps/place/Pollo+Amigo+-+T%C3%ADpicos+la+Bendici%C3%B3n/data=!4m2!3m1!1s0x89c80fade7d32fb5:0x112cdfd17764a7d8 | Current name, Salvadoran classification, address, phone, hours, service modes, owner description and June 2026 pollo a la brasa post; Google 4.0/306. Old automated Peruvian-only summary also remains. |
+| S2 | Restaurantji | https://www.restaurantji.com/md/towson/pollo-amigo-/ | Combined name, matching phone/address/hours, recent reviews, 3.3/138. Updated page label Sep 14 2026. Directory summary is not owner testimony. |
+| S3 | DoorDash current-name menu | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | Verified 714 York Rd and 4104940061 in See more. All six categories: 3+6+3+9+7+12 = 40 entries; 12 Most Ordered duplicates excluded. Prices and photo labels captured in live Chrome. Some descriptions explicitly AI-generated. |
+| S4 | Current Facebook page and photos | https://www.facebook.com/profile.php?id=61590332314504 | Page confirmed by storefront and logo. Storefront: https://www.facebook.com/photo/?fbid=122097842793344410&set=a.122097842841344410 ; logo: https://www.facebook.com/photo/?fbid=122097842607344410&set=a.122097300579344410 ; both May 27 2026. Chicken June 5: https://www.facebook.com/photo/?fbid=122104563609344410&set=a.122104483359344410 . |
+| S5 | Uber Eats | https://www.ubereats.com/store/pollo-amigo-carry-out/HIRLkQyuT3KfxrrACosqSQ | Same address; old-name menu, 20 accessible item entries; separate platform prices. Scheduling visible. No checkout verification or separate item photos exposed. |
+| S6 | Restaurantguru current-name photographed menu | https://restaurantguru.com/Pollo-Amigo-Baltimore/menu | Live page says promo added 4 months ago and two full panels 5 months ago. Current-name panels print 714 York Rd, 410-494-0061 and 240-755-1116. Dates approximate; current validity/prices unconfirmed. Images: https://menu02.restaurantguru.com/m1/Pollo-Amigo-menu-esi.jpg ; https://menu02.restaurantguru.com/m1/Pollo-Amigo-Tipicos-la-Bendicion-menu-oo3.jpg ; promo https://menu02.restaurantguru.com/m1/menu-Pollo-Amigo-Tipicos-la-Bendicion-j8o.jpg . |
+| S7 | Yelp listing, menu and photos | https://www.yelp.com/biz/pollo-amigo-towson | Address/phone/hours, 4.3/283, mixed dated reviews. Full text menu https://www.yelp.com/menu/pollo-amigo-towson corroborates many DoorDash entries/prices, but warns menu may be outdated. Photo gallery https://www.yelp.com/biz_photos/pollo-amigo-towson . |
+| S8 | Legacy domain check | http://www.losamigosbaltimore.com/ | Unrelated gambling/marketplace content rendered in Chrome. No restaurant assets collected; excluded from public CTA destinations. |
+| S9 | Instagram bounded discovery and customer post | https://www.instagram.com/p/BFCXB0CEPMi/ | thisismygoucher, May 5 2016, explicitly names quarter chicken/rice/plantains at Pollo Amigo on York Road; image centers diners and is outdated for current presentation. No official restaurant Instagram established. |
+| S10 | ChowNow bounded source search | https://www.google.com/search?q=site%3Achownow.com+%22Pollo+Amigo%22+Towson | No matching result found. Not proof of permanent absence. |
+| S11 | Grubhub bounded source search | https://www.google.com/search?q=site%3Agrubhub.com+%22Pollo+Amigo%22+Towson | No matching listing found. Parkville El Trovador and Hyattsville La Bendicion excluded. |
+| S12 | Google review interior photo | https://www.google.com/maps/place/Pollo+Amigo+-+T%C3%ADpicos+la+Bendici%C3%B3n/data=!4m2!3m1!1s0x89c80fade7d32fb5:0x112cdfd17764a7d8 | Opened Veronica review photo, labeled Dining area with woodgrain tables and chairs; photo date Apr 2026. Downloaded exact exposed media, inspected original. |
+
+Current identity is independently supported by S1/S2/S3/S4.

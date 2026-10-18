@@ -1,0 +1,166 @@
+{
+  "schema": 2,
+  "toolkit": "xs-website 2.0 (2026-10-17)",
+  "name": "Pollo Amigo - Tipicos la Bendicion",
+  "slug": "pollo-amigo-tipicos-la-bendici",
+  "created": "2026-10-18T14:28:20.162201+00:00",
+  "repository": "xsolutionsmd/pollo-amigo-tipicos-la-bendici",
+  "visibility": "public",
+  "url_key": "polloamigo",
+  "build_type": "landing",
+  "features": [],
+  "endpoint": "full",
+  "identity": {
+    "status": "confirmed",
+    "official_name": "Pollo Amigo - T\u00edpicos la Bendici\u00f3n",
+    "address": "714 York Rd, Towson, MD 21204",
+    "public_phone": "410-494-0061",
+    "public_email": null,
+    "website": null,
+    "maps_url": "https://www.google.com/maps/place/Pollo+Amigo+-+T%C3%ADpicos+la+Bendici%C3%B3n/data=!4m2!3m1!1s0x89c80fade7d32fb5:0x112cdfd17764a7d8",
+    "social": {},
+    "evidence": [
+      {
+        "observed": "2026-10-18T14:28:39.972302+00:00",
+        "note": "Current Google Maps listing shows combined name at 714 York Rd; Restaurantji current combined-name listing and Towson Chamber 2025 directory independently corroborate street address and phone 410-494-0061. Individual operator name remains unknown; legacy Los Amigos identity is historical."
+      },
+      {
+        "observed": "2026-10-18T14:29:09.138661+00:00",
+        "note": "Independent corroboration: https://www.towsonchamber.com/site/wp-content/uploads/2024/12/Directory-2025-Reduced.pdf lists Pollo Amigo at 714 York with phone 410-494-0061; https://www.restaurantji.com/md/towson/pollo-amigo-/ lists the current combined name, same full address and phone (checked 2026-10-18)."
+      }
+    ]
+  },
+  "environments": [
+    {
+      "name": "production",
+      "branch": "main",
+      "hostname": "polloamigo.xsolutionsmd.com",
+      "slug": "pollo-amigo-tipicos-la-bendici"
+    },
+    {
+      "name": "derek-dev",
+      "branch": "derek-dev",
+      "hostname": "d-polloamigo.xsolutionsmd.com",
+      "slug": "pollo-amigo-tipicos-la-bendici-derek-dev"
+    },
+    {
+      "name": "abdul-dev",
+      "branch": "abdul-dev",
+      "hostname": "a-polloamigo.xsolutionsmd.com",
+      "slug": "pollo-amigo-tipicos-la-bendici-abdul-dev"
+    }
+  ],
+  "stages": {
+    "identity": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "done",
+      "recorded": "2026-10-18T14:57:02.796428+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": "node:delegated-task:command%3Amcp%3Ac1b33257-89e4-4702-aab2-2345604fc384%3Adelegate-task%3Apolloamigo-research-assets-r1-20261018",
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Accepted sourced KB, complete live-platform menu and current identity/order destinations; design brief has substantive page map and honest unknowns."
+      ]
+    },
+    "assets": {
+      "status": "done",
+      "recorded": "2026-10-18T14:57:03.176144+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "34 hashes verified, authentic photos inspected, 12 shortlisted; 40 planned menu entries reconciled with 27 matched and 13 missing photos; all nine source families checked."
+      ]
+    },
+    "spec": {
+      "status": "done",
+      "recorded": "2026-10-18T14:57:03.368175+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "research": "2026-10-18T14:57:02.796428+00:00",
+        "assets": "2026-10-18T14:57:03.176144+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Static Home Menu Visit; 40-entry price-free sourced menu; verified DoorDash/Uber Eats and call/directions integrations. No custom ordering/payments."
+      ]
+    },
+    "template": {
+      "status": "done",
+      "recorded": "2026-10-18T15:00:37.951151+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "spec": "2026-10-18T14:57:03.368175+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "El Pastor home + London Bridge menu/location inspected desktop/mobile; mobile nav and text-only category accordion exercised; captured evidence and detailed mapping in design brief."
+      ]
+    },
+    "content": {
+      "status": "pending"
+    },
+    "reconstruct": {
+      "status": "pending"
+    },
+    "backend": {
+      "status": "pending"
+    },
+    "refine": {
+      "status": "pending"
+    },
+    "build": {
+      "status": "pending"
+    },
+    "first-publish": {
+      "status": "pending"
+    },
+    "first-live-slack": {
+      "status": "pending"
+    },
+    "infra": {
+      "status": "pending"
+    },
+    "review": {
+      "status": "pending"
+    },
+    "fixes": {
+      "status": "pending"
+    },
+    "recheck": {
+      "status": "pending"
+    },
+    "deploy": {
+      "status": "pending"
+    },
+    "delivery": {
+      "status": "pending"
+    },
+    "final-handoff": {
+      "status": "pending"
+    }
+  },
+  "updated": "2026-10-18T15:00:37.955958+00:00"
+}
