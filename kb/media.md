@@ -67,3 +67,10 @@ Derek confirms owner permission for the gathered business library across sources
 Do not ask again per file/source/environment or treat old reference-only/public-unverified/permission-pending notes as approval gates.
 Preserve attribution, choose suitable real business media, and pass this standing confirmation to every delegated agent.
 Prefer the business's own originals and the largest, best renditions.
+
+
+## Final identity and delivery check — October 18, 2026
+
+The existing labeled originals, item mappings and actual live crops were checked again without new research or metadata changes. All 34 original hashes pass. The 40 live entries have 27 mapped food photos and 13 missing-photo entries; six dated print supplements remain excluded. JSON and the derived CSV agree (40 planned rows plus six explicitly unplanned supplements). No exact filling, portion or fixed side selection is inferred from a photograph. Unidentified/general imagery is not substituted for missing dishes.
+
+The unchanged 34-image ZIP was delivered to Abdul and persisted after reload. Its authenticated download matched 14,869,796 bytes and SHA-256 `fdf3abf34d51e0301e8843135e51ab30e4dded6f55cde5c51736874b1af27dd4`; the file ID and message readback are retained privately. Main/Abdul's menu remains text-only. The separate Derek-only photo variation follows coordinator acceptance of normal final delivery.
