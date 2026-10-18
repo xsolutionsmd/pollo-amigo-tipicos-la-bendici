@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T15:46:08.756712+00:00):
+Pipeline status (generated 2026-10-18T15:56:09.217744+00:00):
 
 - **identity**: done
 - **research**: done
@@ -12,62 +12,42 @@ Pipeline status (generated 2026-10-18T15:46:08.756712+00:00):
 - **reconstruct**: done
 - **backend**: done
 - **refine**: done
-- **build**: todo: record verified build evidence
-- **first-publish**: todo: blocked by build
-- **first-live-slack**: todo: blocked by first-publish
-- **infra**: todo: blocked by first-publish
+- **build**: done
+- **first-publish**: done
+- **first-live-slack**: done
+- **infra**: todo: record verified infra evidence
 - **review**: todo: blocked by infra
 - **fixes**: todo: blocked by review
 - **recheck**: todo: blocked by fixes
 - **deploy**: todo: blocked by recheck
 - **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by build, first-publish, first-live-slack, infra, review, fixes, recheck, deploy, delivery
+- **final-handoff**: todo: blocked by infra, review, fixes, recheck, deploy, delivery
 <!-- xs-status:end -->
 
-## Current state
+## Current checkpoint ? October 18, 2026
 
-Workflow: server-first (default). Full endpoint authorized on October 18, 2026: initial production plus independent Derek and Abdul previews. Nothing is published yet.
+Full endpoint: first production plus independent Derek and Abdul previews. Production is live at https://polloamigo.xsolutionsmd.com, verified revision `613b8216ff3c2d3b6586d92fa8c1236ea4e0c870`. The first-live Slack message was sent and read back after reload. Managed GitHub releases, personal previews and formal independent live review remain next.
 
-Identity accepted: current Google Maps combined name at 714 York Road, with address and phone corroborated by Restaurantji and the Towson Chamber directory. Historical Los Amigos branding is not the current identity. The current individual operator's name is unknown.
+Accepted: identity; research/assets; feature/reference/content selection; Sol High populated reconstruction; Astra static integration; Claude Opus 5.5 High refinement; checked build; first server publication and first-live delivery. The coordinator owns stage acceptance, this handoff and pipeline state. Infrastructure Sol receives deployment source and services only, returning receipts without editing state.
 
-The local lifecycle scaffold exists. The separate company repository will retain the static kit. No shared workspace branch or another company's source is part of this build.
+## Implementation and evidence
 
-## Coordinator checkpoint
+Home, Menu and Visit use authentic company imagery and 40 reconciled live-platform entries. External DoorDash and Uber Eats ordering is preserved. No custom backend, payment system or customer transaction is part of this build. See `features.md`, `design-brief.md`, `template-blueprint.md`, `docs/API.md` and `docs/VALIDATION.md`.
 
-Accepted milestones: identity, research/assets, specification, inspected reference, content sufficiency, populated browser-supported reconstruction and static integrations. Claude High owns the focused frontend refinement. The coordinator owns this handoff, state and phase acceptance. Ownership and exact task IDs are in the private task ledger.
+The El Pastor reference was inspected using ordinary supported browser/developer tools: rendered desktop/mobile pages, DOM/computed typography and layout, public client assets and actual navigation/category behavior. Derek explicitly removed REA availability as a required gate on October 18. The earlier helper rejection is historical evidence, not a blocker. Do not retry it or claim REA execution. Copied company instructions were reconciled.
 
-Current repository instructions agree with the required no-Stitch workflow, real asset use, separate pages, no decorative numbering and single-writer stage ownership. The initial pipeline is authorized to synchronize all three branches; later Derek-only menu photography must stay separate when the reference menu is text-only.
+Sol reconstruction `cbb047ac335e6baafc7e7a9086d9c542f403644f`; Claude refinement `048fc675943e9ed36cbb85738345049f4cac6ab7`; accepted first-release source `613b8216ff3c2d3b6586d92fa8c1236ea4e0c870`. Refinement preserved content, asset identities and destinations, improving header, photo backgrounds, Visit proportions and reduced-motion-safe transitions. Rendered desktop/mobile and interaction checks passed before publication; formal independent live review follows infrastructure.
 
-## Last session
+## Release continuity
 
-October 18: reserved the short URL key `polloamigo`; the Oracle gateway has no matching route. Read-only host inspection found approximately 703 MiB available RAM and 37 GiB free disk. Existing gateway lock is present. Recheck capacity and reservations immediately before release. Shared route changes require the existing lock, a fresh read and compare-and-swap; retain all sibling routes and state.
+Short key `polloamigo` is reserved. Reuse the existing production Compose project/service and hostname; do not install a second production stack. First publication retained all pre-existing container identities, mounts and gateway routes. Infrastructure must check fresh capacity and use the existing gateway lock plus fresh read/compare-and-swap for scoped additions. Preserve concurrent companies and secrets. No shared root branch or another company is writable.
 
-## Next step
+The three targets are https://polloamigo.xsolutionsmd.com, https://d-polloamigo.xsolutionsmd.com and https://a-polloamigo.xsolutionsmd.com. Only production is presently verified. Actual deployment and Slack receipts are retained privately, outside this public source.
 
-Accept Claude's focused refinement of the existing Home, Menu and Visit implementation. Follow with final runtime/readiness checks, first publication/Slack, infrastructure, independent live review and corrections, then final Sol delivery and the separate Derek-only menu-photo variation.
+## Next milestone and remaining uncertainty
 
-## Blockers / waiting on
+Sol 6.1 Extra High completes GitHub/Actions/protections and both preview environments using this existing site. Then a separate Sol High live reviewer checks desktop/mobile, all interactions and reference fidelity; Astra fixes and republishes accepted findings until recheck passes. Final Sol High verifies revisions, completes media delivery and final Slack handoff. The last scoped step adds matched menu photos to Derek's branch only; main and Abdul retain the reference's text-only menu.
 
-Research accepted: 40 live-platform menu entries; 34 authentic images; 27 menu photos matched and 13 missing. Current Facebook, hours and ordering destinations verified. Unknown operator name, in-store prices, six dated print-only items and dish-variant ambiguities remain documented omissions. No REA repair or permission is required: the sufficient browser/devtools evidence is accepted under Derek's explicit October 18 fallback correction.
+Research gaps remain honest omissions: individual operator name and current in-store prices are unknown; six dated print-only dishes and ambiguous dish variants are excluded. The library contains 34 sourced originals; 27 menu entries have matched photos and 13 have no verified match. Standing permission covers gathered business assets in authorized environments; do not ask again. Retain provenance and verify displayed crops.
 
-## Latest accepted phase — October 18, 2026
-
-Research/assets (Astra) and functionality/reference/content (coordinator) are accepted. El Pastor home, London Bridge menu and location pages were inspected desktop/mobile, including navigation and category expansion. See `design-brief.md` for the exact reference, content mapping and intentional adaptations. Source text-menu styling is preserved on main/Abdul; Derek-only photos follow normal final delivery.
-
-Sol's browser/devtools blueprint and runnable populated reconstruction in `app/` are complete, with Home, full Menu and Visit; Astra's static integration checks passed. Claude's narrow refinement is active. No remote GitHub or server publication yet. Current company branch is `derek-dev`.
-
-## Reconstruction and runtime acceptance
-
-Sol's populated implementation at `cbb047ac335e6baafc7e7a9086d9c542f403644f` is accepted using ordinary browser/devtools inspection: rendered reference desktop/mobile views, DOM/computed layout and typography, actual navigation/category behavior, content reconciliation and working source. The earlier helper rejection remains historical tool evidence, not an acceptance blocker. No REA execution is claimed. See the blueprint for the actual method.
-
-Astra verified the existing external integrations and static runtime: lifecycle build, health/exact revision, read-only non-root operation, physical page URLs, noindex and real missing-path 404s. `docs/API.md` supplies the checked contract. No custom backend is required. Claude's narrow refinement of this same frontend is active; publication and infrastructure remain pending.
-
-## October 18 instruction supersession
-
-Derek explicitly removed REA availability as a required gate. Ordinary browser/developer-tools evidence can satisfy reference analysis and reconstruction; do not repeat the rejected helper, wait for repair or ask for a waiver. Actual reference fidelity, company content and desktop/mobile interaction checks remain required. This supersedes earlier dispatch/handoff wording implying mandatory REA. The canonical fallback was read, copied company instructions reconciled and the active Claude specialist notified; previously accepted work continues without a restart.
-
-## Refinement accepted — first release next
-
-Claude Opus 5.5 High completed the existing-source refinement at `048fc675943e9ed36cbb85738345049f4cac6ab7`: measured photo backgrounds and restrained edge blending, reference-style header, improved desktop Visit hero proportions, and short reduced-motion-safe disclosure/navigation fades. No content, media identities, 40-entry menu or integration destinations changed. The coordinator inspected the source diff and actual desktop/mobile captures; Claude's final rendered interaction matrix and build passed. The specialist is stopped and ownership released.
-
-Astra now owns final readiness and the first production publication. Managed repository/previews and independent live review follow first publication; no external release is claimed yet.
+No current access blocker. Cleanup must retire exact owned disposable local/release resources after infrastructure no longer needs them, preserving the active server image until its managed replacement is verified.

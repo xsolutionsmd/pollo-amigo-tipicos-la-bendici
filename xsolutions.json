@@ -132,7 +132,26 @@
       "status": "pending"
     },
     "build": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T15:48:40.965448+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "refine": "2026-10-18T15:46:08.324467+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Final lifecycle check passed after Claude refinement; ARM64 image built with exact source/revision; actual production Compose rehearsed read-only, tmpfs, non-root, no-new-privileges, independent proxy network. Eight route/health/version/image/noindex/404 checks passed; rehearsal resources removed. Desktop/mobile populated captures and interaction checks accepted. private/runs/first-publish/readiness-check.log, arm64-build.log, rehearsal.json; refine-r1.md."
+      ],
+      "revision": "613b8216ff3c2d3b6586d92fa8c1236ea4e0c870",
+      "inputs_sha256": {
+        "kb/features.md": "6f320fe7af8da95d2d682bc7997f9cd13446af6ec4fa646e448895d8b8ad1c9f",
+        "kb/design-brief.md": "730301e02c84260220f729e1f2db7ac391865aadf8ca3ebc235a6e04a82d7f1f"
+      },
+      "content_recorded": "2026-10-18T15:01:01.348663+00:00"
     },
     "first-publish": {
       "status": "pending"
@@ -162,5 +181,5 @@
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T15:00:37.955958+00:00"
+  "updated": "2026-10-18T15:48:40.985986+00:00"
 }
