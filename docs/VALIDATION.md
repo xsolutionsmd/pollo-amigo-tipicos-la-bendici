@@ -1,0 +1,25 @@
+# Initial frontend reconstruction validation
+
+October 18, 2026; Sol High, company `derek-dev`, base `250bf07ca1aaab36986b87a1a8cc15dd9b376999`. Reconstruction only, pending coordinator acceptance. No push or deployment. Existing runtime/Dockerfile unchanged.
+
+## Completed checks
+
+- `npm ci --no-audit --no-fund`; `npm run check`: Vite production build and existing static suite pass. Three physical outputs: `dist/index.html`, `dist/menu/index.html`, `dist/visit/index.html`. Required links include every real integration plus the three routes. No placeholder marker, external runtime resource, decorative numbering or fake form.
+- Actual owned T3 browser: direct loads at 1440×900, 390×844 and 375×844 for all three pages. No horizontal overflow or out-of-viewport headings/controls; both licensed fonts load. Inspected real food/logo/storefront/interior images and lower-page content. Home preserves the full chicken plate; mobile stacks its photo/title. Visit retains both signs and entry; real dining room is shown without implying a larger restaurant.
+- Six menu categories: pointer open, Enter close, Space reopen pass for each. All 40 actual browser DOM names/categories/descriptions reconciled to the complete accepted source index: **3 / 6 / 3 / 9 / 7 / 12**. Zero prices and zero item-row photos. Six dated supplements absent; Salmon and Fresh Salmon Filet preserved separately. Pupusa description safely shortened to handmade; unsupported Empanadas filling omitted. Private JSON and derived CSV carry rendered reconciliation without changing source/photo evidence.
+- Full-screen navigation: open/close, repeated opening, initial focus, twelve forward Tab steps, reverse Tab, Escape, focus return, scroll lock/unlock and real navigation to Visit. An observed native dialog focus-wrap issue was fixed with an explicit boundary trap. Visit refresh and browser Back work; navigating through the dialog closes it before leaving, so returning does not preserve a locked overlay.
+- Reduced motion: T3 exposes no OS reduced-motion emulation. Activated the **existing** CSS media rule in the browser engine, verified both chevron and link transitions compute to `0s`, then restored the rule. No automatic or continuing decorative motion exists. This is declaration/runtime verification, not a claim that an OS preference was changed.
+- Primary Order online was clicked: browser reached the exact verified DoorDash URL and restaurant-specific page title, then Back returned to the site. Alternate Uber Eats, telephone, Maps and Facebook hrefs exactly match the accepted KB; no order, phone call, payment or message submitted.
+- Local HTTP `/`, `/menu/`, `/visit/`, `/health`, `/version.json` and referenced assets checked. Health `ok`, noindex and working-copy revision are from the preserved development runtime. All 34 original asset hashes verify; eight selected assets and eleven optimized WebP files remain provenance-linked.
+
+## Evidence
+
+The private company workspace has `private/runs/template-analysis/`: six page screenshots at desktop/390; menu-open and navigation captures; lower home content; `browser-menu.json`, `final-browser-checks.json`, `reconciliation.json`, `used-assets.json` and `local-http-checks.json`. The earlier `browser-checks.json` records pre-repair checks and is superseded by `final-browser-checks.json`. Reference selection has seven coordinator captures; [blueprint](../kb/template-blueprint.md) records measurements and adaptations. Raw media and browser tooling are excluded from the public repository/image.
+
+## Remaining limits and next owner
+
+**REA unavailable:** automatic execution review rejected the explicitly permitted dedicated helper launch before execution: `rejected: blocked by policy`. No further reason returned. Attempt stopped; no CDP endpoint, REA target/capture or evidence ID exists. `rea-blocker.json` retains the exact limitation. Ordinary T3 browser evidence is not presented as REA evidence.
+
+No production Nginx container, hosted preview, remote repository, social-card fetch or external transaction was tested here. Astra owns runtime/integration acceptance after coordinator acceptance, then the refinement specialist reviews this same populated frontend. The public source is noindex. Current in-store prices, holiday exceptions, operator identity, salmon equivalence and 13 exact dish-photo gaps remain unknown and are not invented.
+
+Local Vite at `http://127.0.0.1:8787/`, its installed dependencies and current ignored `app/dist/` are retained only for imminent Astra/refinement checks. Recheck and retire them when those local reviews finish. No Docker resource was created or removed. The rejected REA launch created no browser/profile/helper session. Existing raw library and the new evidence/generator records are required reconstruction/provenance records. Recycled the unused 229-byte starter favicon after checking it was unreferenced; verified its exact Recycle Bin entry and SHA-256. Zero disk-space recovery is claimed. Sibling processes and designated VoiceVault/Budgie resources were untouched.

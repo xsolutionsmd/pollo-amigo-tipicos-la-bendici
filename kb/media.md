@@ -50,7 +50,16 @@ The full library is in the private company folder (`private/assets/originals/`, 
 
 ## Used on the website
 
-None selected yet.
+| Site file | Type | Source page | Rights |
+|---|---|---|---|
+| app/public/images/whole-chicken.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/carne-asada.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/el-paso-burrito.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/yuca-pork-rinds.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/pupusas.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/storefront.webp | image | https://www.facebook.com/photo/?fbid=122097842793344410&set=a.122097842841344410 | business-official |
+| app/public/images/logo.webp | image | https://www.facebook.com/photo/?fbid=122097842607344410&set=a.122097300579344410 | business-official |
+| app/public/images/dining-room.webp | image | https://www.google.com/maps/place/Pollo+Amigo+-+T%C3%ADpicos+la+Bendici%C3%B3n/data=!4m2!3m1!1s0x89c80fade7d32fb5:0x112cdfd17764a7d8 | public-unverified |
 
 All collected media of the business may be used in every environment, including production,
 because this site is built for the business. The rights field records provenance only; it does not block use.
