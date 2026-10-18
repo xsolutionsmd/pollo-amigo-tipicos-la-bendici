@@ -14,6 +14,15 @@ local implementation route; preserve task-specific role restrictions and existin
 branch, endpoint and release boundaries. Keep separate pages where requested,
 no decorative numbering, and the already confirmed business-asset authorization.
 
+Derek's October 18, 2026 correction: REA is preferred tooling, not a required gate.
+If unavailable after bounded recovery, continue through ordinary supported browser
+and developer-tools inspection of the rendered reference, DOM/computed styles,
+layout, public assets and visible behavior. Desktop/mobile captures, exercised
+flows, a populated reconstruction and quality checks still apply. Document the
+actual method once; do not repeat known rejected helpers, wait for REA repair,
+ask for a waiver or call the fallback REA. Sufficient browser evidence passes the
+same reconstruction stage.
+
 ## Optional Inspo discovery on another computer or agent container
 
 Python 3.10+ and a working Codex CLI are enough for the connector helper:
