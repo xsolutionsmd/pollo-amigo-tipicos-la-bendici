@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T15:01:01.675390+00:00):
+Pipeline status (generated 2026-10-18T15:30:17.826272+00:00):
 
 - **identity**: done
 - **research**: done
@@ -9,9 +9,9 @@ Pipeline status (generated 2026-10-18T15:01:01.675390+00:00):
 - **spec**: done
 - **template**: done
 - **content**: done
-- **reconstruct**: todo: record coordinator-accepted reconstruct evidence
-- **backend**: todo: blocked by reconstruct
-- **refine**: todo: blocked by backend
+- **reconstruct**: done
+- **backend**: done
+- **refine**: todo: record coordinator-accepted refine evidence
 - **build**: todo: blocked by refine
 - **first-publish**: todo: blocked by build
 - **first-live-slack**: todo: blocked by first-publish
@@ -21,7 +21,7 @@ Pipeline status (generated 2026-10-18T15:01:01.675390+00:00):
 - **recheck**: todo: blocked by fixes
 - **deploy**: todo: blocked by recheck
 - **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by reconstruct, backend, refine, build, first-publish, first-live-slack, infra, review, fixes, recheck, deploy, delivery
+- **final-handoff**: todo: blocked by refine, build, first-publish, first-live-slack, infra, review, fixes, recheck, deploy, delivery
 <!-- xs-status:end -->
 
 ## Current state
@@ -34,7 +34,7 @@ The local lifecycle scaffold exists. The separate company repository will retain
 
 ## Coordinator checkpoint
 
-Accepted milestone: identity. Astra owns current factual research and authentic asset collection; the coordinator owns this handoff, state, specification, reference choice and acceptance. Ownership and exact task IDs are in the private task ledger.
+Accepted milestones: identity, research/assets, specification, inspected reference and content sufficiency. Sol High owns the populated frontend reconstruction. The coordinator owns this handoff, state and phase acceptance. Ownership and exact task IDs are in the private task ledger.
 
 Current repository instructions agree with the required no-Stitch workflow, real asset use, separate pages, no decorative numbering and single-writer stage ownership. The initial pipeline is authorized to synchronize all three branches; later Derek-only menu photography must stay separate when the reference menu is text-only.
 
@@ -44,7 +44,7 @@ October 18: reserved the short URL key `polloamigo`; the Oracle gateway has no m
 
 ## Next step
 
-Inspect the research, complete menu and real-photo shortlist. Accept factual/content sufficiency, decide exact customer actions, then inspect a premium reference and delegate populated REA reconstruction to Sol High. No visual implementation before those gates. Follow with Astra static/integration checks, Claude refinement, first publication/Slack, infrastructure, independent live review and corrections, then final Sol delivery.
+Accept Sol's populated REA reconstruction of Home, Menu and Visit against the agreed reference and content. Follow with Astra static/integration checks, Claude refinement, first publication/Slack, infrastructure, independent live review and corrections, then final Sol delivery and the separate Derek-only menu-photo variation.
 
 ## Blockers / waiting on
 
@@ -55,3 +55,9 @@ Research accepted: 40 live-platform menu entries; 34 authentic images; 27 menu p
 Research/assets (Astra) and functionality/reference/content (coordinator) are accepted. El Pastor home, London Bridge menu and location pages were inspected desktop/mobile, including navigation and category expansion. See `design-brief.md` for the exact reference, content mapping and intentional adaptations. Source text-menu styling is preserved on main/Abdul; Derek-only photos follow normal final delivery.
 
 Next allowed stage: Sol High REA blueprint and runnable populated reconstruction in `app/`, with Home, full Menu and Visit. No remote GitHub or server publication yet. Astra static/integration verification follows Sol, then Claude's narrow refinement. Current company branch is `derek-dev`.
+
+## Reconstruction and runtime acceptance
+
+Sol's populated implementation at `cbb047ac335e6baafc7e7a9086d9c542f403644f` is accepted on its actual browser evidence, content reconciliation and working source. **REA analysis is unavailable:** automatic approval review rejected the documented helper before execution (`rejected: blocked by policy`), without a specific reason. The route stopped; no REA evidence or completed REA pass is claimed. See the blueprint for this limitation.
+
+Astra verified the existing external integrations and static runtime: lifecycle build, health/exact revision, read-only non-root operation, physical page URLs, noindex and real missing-path 404s. `docs/API.md` supplies the checked contract. No custom backend is required. Claude's narrow refinement of this same frontend is next; publication and infrastructure remain pending.
