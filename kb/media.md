@@ -54,13 +54,36 @@ The full library is in the private company folder (`private/assets/originals/`, 
 | Site file | Type | Source page | Rights |
 |---|---|---|---|
 | app/public/images/whole-chicken.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/1-2-chicken.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/costillas-de-res-beef-ribs.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/lomo-saltado.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/chuletas-de-cerdo.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/camaron-entomatado.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/pollo-saltado-saltado-chicken.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
 | app/public/images/carne-asada.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/ceviche.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/fresh-tilapia.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/enchilada.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/chimichanga.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/quesadilla.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/fajitas.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/taco-salad.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/tacos-de-carnita.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
 | app/public/images/el-paso-burrito.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/jason-burrito.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/fresh-salmon-filet.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
 | app/public/images/yuca-pork-rinds.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/arroz-chaufa.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
 | app/public/images/pupusas.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/tamales.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/yuca.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/empanadas.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/tres-leches-cake.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
+| app/public/images/menu/plantain.webp | image | https://www.doordash.com/store/t%C3%ADpicos-pollo-amigo-towson-34201028/67441146/ | public-unverified |
 | app/public/images/storefront.webp | image | https://www.facebook.com/photo/?fbid=122097842793344410&set=a.122097842841344410 | business-official |
 | app/public/images/logo.webp | image | https://www.facebook.com/photo/?fbid=122097842607344410&set=a.122097300579344410 | business-official |
 | app/public/images/dining-room.webp | image | https://www.google.com/maps/place/Pollo+Amigo+-+T%C3%ADpicos+la+Bendici%C3%B3n/data=!4m2!3m1!1s0x89c80fade7d32fb5:0x112cdfd17764a7d8 | public-unverified |
+| app/public/images/menu/1-4-chicken.webp | image | https://www.yelp.com/biz_photos/pollo-amigo-towson?start=60&select=PiVQjT7jiTrJU3UzRY005A&tab=food | public-unverified |
 
 All collected media of the business may be used in every environment, including production,
 because this site is built for the business. The rights field records provenance only; it does not block use.
@@ -69,14 +92,12 @@ Do not ask again per file/source/environment or treat old reference-only/public-
 Preserve attribution, choose suitable real business media, and pass this standing confirmation to every delegated agent.
 Prefer the business's own originals and the largest, best renditions.
 
-## Expanded Derek-only mapping — October 18, 2026
+## Verified Derek photo variation — October 18, 2026
 
-36 of the 40 sourced menu entries now have supported photo mappings: 27 original confirmed DoorDash associations plus 9 likely associations (one historical quarter-chicken presentation, one Salmon/Fresh Salmon Filet variant and seven isolated sides). Four remain unpictured: Vegetarian Burrito, Chicken Soup, Beef Soup and Flan. Six dated printed supplements remain outside the planned menu.
+Derek's live menu has **36 photos across 40 entries: 27 confirmed and 9 likely associations**. Vegetarian Burrito, Chicken Soup, Beef Soup and Flan remain unpictured. All 35 original hashes and 36 derivative hashes verify; the canonical private index, derived 46-row CSV and gallery agree. The 40 planned entries and six dated, unplanned supplements remain separate.
 
-The private `assets/menu-items.json` is canonical; `menu-items.csv` is derived from it. Each new association records clues, competing interpretations, original SHA/source and literal crop coordinates. All 35 originals pass SHA verification. `private/runs/expanded-photo-assets-r1.md` and `.json` hold the compact handoff and visual crop evidence.
+The nine likely associations are historical quarter chicken (Yelp, Annabelle L., August 12, 2017; current presentation unproven), Fresh Salmon Filet using the labeled Salmon variant (preparation/sauce equivalence uncertain), and seven isolated original-pixel crops for rice, beans, pico de gallo, guacamole, sour cream, salad and fries (side-order quantities unproven). Preserve these inference labels, crop coordinates, original hashes and exact provenance.
 
-The quarter photo is Annabelle L.'s explicitly captioned Yelp image dated August 12, 2017; its historical identity is confirmed and present-day presentation is only likely. The Fresh Salmon Filet mapping is a reasonable variant of the business's labeled Salmon photo, with sauce equivalence unverified. Side crops show actual visible food, not a promise of a side-order portion. Keep small crops at native resolution or below.
+Independent focused live review at `468f8cb499539902c652b002741f12a09b979709`: **99 actual pass cases, zero findings**, including the 36 item identities/crops. Coordinator accepted the review; unchanged checks were reused for the no-change fixes/recheck. No second suite or new research is claimed. Main and Abdul remain at `f8fb126b8c803adde09993b443ca52430fafcfaf` with text-only menu rows; preserve this intentional branch difference.
 
-The earlier 27-photo/13-gap check and original 34-image delivery remain valid historical results. The previous exact-only exclusions are superseded for this requested expanded Derek mapping. Original normal-render fields are deliberately preserved as history. This research does not verify implementation or publication of the 36-photo mapping. Main and Abdul retain text-only menus.
-
-Package inputs changed; final Sol must rebuild and deliver the updated package once. This pass did not package, send Slack, publish, commit, change branches or advance workflow receipts.
+All nine source families have bounded coverage records, not exhaustive historical collection. Earlier 34-original/27-photo reports and their delivery are historical. The updated package includes 35 originals, source manifest, coverage, full menu index, CSV and gallery; current delivery receipts are retained privately.
