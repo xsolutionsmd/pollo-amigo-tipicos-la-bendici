@@ -44,3 +44,18 @@ October 18, 2026; Claude Opus 5.5 High refinement of the same accepted frontend 
 - Reduced motion verified from the active rule in the stylesheet; T3 cannot emulate the OS preference.
 
 Evidence: private `runs/refine-r1/` captures and `runs/refine-r1.md`.
+
+
+# Accepted live review and final handoff — October 18, 2026
+
+The reconstruction/refinement sections above describe their historical local scope. They are superseded for current release state by the accepted managed deployment and independent live evidence below.
+
+- Independent broad live review: 72 desktop/mobile/interaction cases at `f93b61e`; two routing findings. Astra fixed relative HTTPS-preserving canonical redirects and authored missing-page recovery in PR1, merged as `5b9be3670be8593835b3d82fe9a60cce2ed77449` and synchronized into both previews.
+- Fresh independent Sol High recheck: 67 actual pass cases (34 browser, 33 HTTP), zero failed/blocked, zero new findings at `5b9be3670be8593835b3d82fe9a60cce2ed77449`. PA-LR-001 and PA-LR-002 are resolved across all three environments. Includes encoded-query redirects, true404 recovery links, keyboard/mobile navigation, refresh/back, missing assets, noindex, fonts and 40-entry text-only menu reconciliation.
+- Final handoff quick pass: existing 34 original hashes and 27 mapped photo identities/provenance checked, 13 exact-photo gaps preserved; live desktop food cards/pupusas and 390px chicken/pupusa crops inspected. No dish correction or product change. All nine source families already have recorded checks; no broad re-research.
+- Documentation release: only owned public-safe handoff records are published. The actual application/runtime/Dockerfile/server/deployment/workflow comparison and post-last-push `XV --expect-site` receipts for production, Derek and Abdul are retained privately with actual remote/live SHAs. These receipts supplement public legacy pending flags; no new full-browser-suite pass is inferred from a documentation commit.
+- Media delivery: current ZIP persisted after reload and its authenticated download matches the original 14,869,796 bytes and exact SHA-256. Final Slack URLs and canonical directory matching-readback receipt remain private.
+
+Evidence in the private company workspace: `runs/live-review-r1.md`, `runs/fixes-r1/`, `runs/live-recheck-r1.md`/`.json`, `runs/food-identity-final.json`, `runs/media-delivery.json`, `runs/handoff-verification.json` and `runs/slack-site-links.json`.
+
+Limits: responsive Chromium viewports, not physical-device/older-engine coverage. Existing reduced-motion declaration/runtime evidence retained; no new OS emulation or external customer transactions. No sale, owner-approved prices/menu or operator identity is inferred. The required Derek-only menu-photo variation remains a later scoped step after coordinator acceptance; main/Abdul remain text-only. Retain the current builder/cache/check image, dependencies and dist for that immediate work, then recheck exact owned resources. The rejected archive recycling is not retried.

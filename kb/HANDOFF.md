@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T16:47:52.107722+00:00):
+Pipeline status (generated 2026-10-18T17:19:05.447740+00:00):
 
 - **identity**: done
 - **research**: done
@@ -17,37 +17,42 @@ Pipeline status (generated 2026-10-18T16:47:52.107722+00:00):
 - **first-live-slack**: done
 - **infra**: done
 - **review**: done
-- **fixes**: todo: record coordinator-accepted fixes evidence
-- **recheck**: todo: blocked by fixes
-- **deploy**: todo: blocked by recheck
+- **fixes**: done
+- **recheck**: done
+- **deploy**: todo: record verified deploy evidence
 - **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by fixes, recheck, deploy, delivery
+- **final-handoff**: todo: blocked by deploy, delivery
 <!-- xs-status:end -->
 
-## Current checkpoint ? October 18, 2026
+## Current checkpoint — October 18, 2026
 
-Full endpoint: first production plus independent Derek and Abdul previews. Production is live at https://polloamigo.xsolutionsmd.com, verified revision `613b8216ff3c2d3b6586d92fa8c1236ea4e0c870`. The first-live Slack message was sent and read back after reload. Managed GitHub releases and both personal previews are now verified at `f93b61eee7fc4b25c58dd7ab92877a6d65ecaf7f`. Independent live review is accepted with two route findings; Astra correction is in progress.
+Workflow: server-first (default). The coordinator accepted the fresh independent Sol High live recheck at `5b9be3670be8593835b3d82fe9a60cce2ed77449`: **67 pass cases, no new findings**. Astra's PA-LR-001 HTTPS-preserving bare-route redirects and PA-LR-002 authored HTTP404 recovery both passed on all three environments. The earlier broad review covered 72 cases. Current stage: Sol High final verification and delivery; coordinator acceptance remains separate.
 
-Accepted: identity; research/assets; feature/reference/content selection; Sol High populated reconstruction; Astra static integration; Claude Opus 5.5 High refinement; checked build; first server publication and first-live delivery; managed repository and three-environment infrastructure. The coordinator owns stage acceptance, this handoff and pipeline state. Infrastructure Sol is terminal and ownership released. The independent reviewer is terminal and released. Astra owns the focused correction, source and state.
+- Production: https://polloamigo.xsolutionsmd.com
+- Derek: https://d-polloamigo.xsolutionsmd.com
+- Abdul: https://a-polloamigo.xsolutionsmd.com
+- Repository: https://github.com/xsolutionsmd/pollo-amigo-tipicos-la-bendici
 
-## Implementation and evidence
+Production and both previews are independent managed Oracle runtimes. This handoff publishes documentation only; application, runtime, Dockerfile, server, deployment configuration and workflows remain unchanged from the reviewed revision. Final post-push branch/live verification and source-parity receipts are kept in the private company workspace, avoiding self-referential revision commits. Public legacy stage flags are supplemented by those private receipts; pending flags are not fabricated passes.
 
-Home, Menu and Visit use authentic company imagery and 40 reconciled live-platform entries. External DoorDash and Uber Eats ordering is preserved. No custom backend, payment system or customer transaction is part of this build. See `features.md`, `design-brief.md`, `template-blueprint.md`, `docs/API.md` and `docs/VALIDATION.md`.
+## Accepted design and content
 
-The El Pastor reference was inspected using ordinary supported browser/developer tools: rendered desktop/mobile pages, DOM/computed typography and layout, public client assets and actual navigation/category behavior. Derek explicitly removed REA availability as a required gate on October 18. The earlier helper rejection is historical evidence, not a blocker. Do not retry it or claim REA execution. Copied company instructions were reconciled.
+Home `/`, Menu `/menu/`, Visit `/visit/` and the authored missing-page recovery preserve the accepted El Pastor design, actual company imagery, restrained consistent typography, square controls and no decorative numbering. Reference reconstruction used ordinary browser/developer-tools inspection with desktop/mobile evidence. The recorded REA tool limitation is historical; no repair, waiver or REA execution is claimed.
 
-Sol reconstruction `cbb047ac335e6baafc7e7a9086d9c542f403644f`; Claude refinement `048fc675943e9ed36cbb85738345049f4cac6ab7`; accepted first-release source `613b8216ff3c2d3b6586d92fa8c1236ea4e0c870`. Refinement preserved content, asset identities and destinations, improving header, photo backgrounds, Visit proportions and reduced-motion-safe transitions. Rendered desktop/mobile and interaction checks passed before publication; formal independent live review follows infrastructure.
+All 40 live-platform menu entries remain in six text-only categories (3/6/3/9/7/12), with existing DoorDash and Uber Eats destinations. The sourced identity is Pollo Amigo – Típicos la Bendición at 714 York Rd, Towson, 410-494-0061. This static site adds no custom checkout, payment or customer transaction. No sale, individual operator identity or owner-approved menu is established.
 
-## Release continuity
+The quick final food-identity pass compared the existing item index, provenance, original contact sheets and actual rendered desktop/mobile crops. No concrete dish correction was needed. The library has 34 originals: 27 DoorDash, three Facebook, one Maps interior and three Restaurantguru menu graphics. There are 27 mapped food photos and 13 exact-photo gaps; all nine source families were checked with bounded, honestly recorded coverage. Concealed fillings, recipes, portions and side inclusions remain unproven. Salmon is not substituted for Fresh Salmon Filet. See [media](media.md).
 
-Short key `polloamigo` is reserved. Reuse the existing production Compose project/service and hostname; do not install a second production stack. First publication retained all pre-existing container identities, mounts and gateway routes. Infrastructure must check fresh capacity and use the existing gateway lock plus fresh read/compare-and-swap for scoped additions. Preserve concurrent companies and secrets. No shared root branch or another company is writable.
+The current media ZIP was delivered to Abdul through the established team channel and verified after reload; an authenticated download matched its exact 14,869,796 bytes and SHA-256. Detailed file/message receipts remain private. The canonical team URL directory already has the correct three short URLs; its matching persisted readback was reused without editing. The original first-live notification is retained and must not be resent. Final URL/message verification is recorded privately after the documentation release.
 
-The three targets are https://polloamigo.xsolutionsmd.com, https://d-polloamigo.xsolutionsmd.com and https://a-polloamigo.xsolutionsmd.com. All three URLs are verified at their matching branch heads; production and previews have independent managed runtimes. The public repository is https://github.com/xsolutionsmd/pollo-amigo-tipicos-la-bendici. Actual deployment and Slack receipts are retained privately, outside this public source.
+## Evidence and next action
 
-## Next milestone and remaining uncertainty
+Private evidence: `runs/live-review-r1.md` and `.json`, `runs/fixes-r1.md` and its release evidence, `runs/live-recheck-r1.md` and `.json`, `runs/infra-r1.md`, `runs/food-identity-final.json`, `runs/media-delivery.json`, `runs/handoff-final.md`, `runs/handoff-verification.json` and `runs/slack-site-links.json`. Media originals/index/CSV remain in the private asset library; public source contains only selected optimized copies and sourced facts. See [validation](../docs/VALIDATION.md).
 
-Infrastructure is accepted: six successful push workflows, strict main checks, branch-restricted environments, public packages and unchanged sibling services. The independent Sol High review covered 72 cases and accepted the design/content/interactions, with two route defects; Astra fixes and republishes accepted findings until recheck passes. Final Sol High verifies revisions, completes media delivery and final Slack handoff. The last scoped step adds matched menu photos to Derek's branch only; main and Abdul retain the reference's text-only menu.
+Next: **Coordinator inspect and accept** final handoff from its actual private verification/delivery records. Then perform the required last scoped Derek-only menu-photo variation using accepted mapped dishes and one focused review/fix pass. Do not implement it during this handoff or merge it into main/Abdul. Main and Abdul's menu must remain text-only. The whole assignment is not complete until that later step is accepted.
 
-Research gaps remain honest omissions: individual operator name and current in-store prices are unknown; six dated print-only dishes and ambiguous dish variants are excluded. The library contains 34 sourced originals; 27 menu entries have matched photos and 13 have no verified match. Standing permission covers gathered business assets in authorized environments; do not ask again. Retain provenance and verify displayed crops.
+Unknowns remain omitted: current in-store prices, individual operator name, holiday exceptions, six dated print-only dishes, ambiguous variants and 13 exact dish photos. No invented allergens, prices, ratings or operational promises.
 
-Accepted findings PA-LR-001 and PA-LR-002: bare routes leak an internal HTTP origin, and unknown routes display Home. The correction makes redirects relative and adds a branded missing-page view with Home/Menu/Visit recovery while retaining HTTP 404. Local build/static checks pass; container/browser checks, corrective publication and fresh Sol recheck follow. No current access blocker. Cleanup must retire exact owned disposable local/release resources after infrastructure no longer needs them, preserving the active server image until its managed replacement is verified.
+## Cleanup
+
+Retain the dedicated `polloamigo-build-20261018` builder/current cache, current correction check image, `app/node_modules` and `app/dist` for the immediate Derek-photo work; recheck after that variation. Preserve evidence, package, source and active managed runtime/recovery state. Own browser tabs close at handoff. The obsolete first-release archive remains intact because automatic approval review rejected its recycling; the private handoff records its exact path and 23,185,408-byte size for manual cleanup. Do not retry through another tool or shell. No global prune, gateway modification or unrelated cleanup.
