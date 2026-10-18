@@ -28,3 +28,7 @@
 .navigation-dialog[open]{animation:nav-in .2s ease-out}
 @keyframes disclose{from{opacity:0;transform:translateY(-6px)}}
 @keyframes nav-in{from{opacity:0}}
+
+/* Missing URLs retain the same typography, navigation and recovery actions. */
+.missing-page{min-height:72svh;padding-block:200px 100px}.missing-page h1{font-size:clamp(56px,7vw,90px);max-width:850px}.missing-page p{max-width:580px;margin-top:28px}.recovery-links{display:flex;flex-wrap:wrap;gap:16px;margin-top:36px}.recovery-links .button{font-size:22px;min-width:150px}
+@media(max-width:799px){.missing-page{padding-block:150px 70px}.recovery-links{display:grid;grid-template-columns:1fr}.recovery-links .button{width:100%}}

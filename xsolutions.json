@@ -160,7 +160,20 @@
       "status": "pending"
     },
     "infra": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T16:19:53.096965+00:00",
+      "workflow_version": 2,
+      "owner": "sol-xhigh",
+      "task_id": "node:delegated-task:command%3Amcp%3Ac1b33257-89e4-4702-aab2-2345604fc384%3Adelegate-task%3Apolloamigo-infra-r1-20261018",
+      "prerequisites": {
+        "first-publish": "2026-10-18T15:51:15.216197+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Public repository, strict main checks, restricted environments, public GHCR packages and six push workflows verified. All three HTTPS versions f93b61e; 18 rendered route cases passed, existing 26 container/44 hostname identities preserved. See private/runs/infra-r1.md and receipt.json; bare-path runtime defect deferred to independent review/Astra fixes."
+      ]
     },
     "review": {
       "status": "pending"
@@ -181,5 +194,5 @@
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T15:48:40.985986+00:00"
+  "updated": "2026-10-18T16:19:53.116782+00:00"
 }
