@@ -1,0 +1,11 @@
+[Unit]
+Description=Check pollo-amigo-tipicos-la-bendici approved releases
+
+[Timer]
+OnBootSec=45s
+OnUnitInactiveSec=60s
+AccuracySec=5s
+Unit=pollo-amigo-tipicos-la-bendici-update.service
+
+[Install]
+WantedBy=timers.target

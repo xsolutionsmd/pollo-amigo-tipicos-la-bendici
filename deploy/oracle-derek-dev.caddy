@@ -1,0 +1,3 @@
+d-polloamigo.xsolutionsmd.com {
+    reverse_proxy pollo-amigo-tipicos-la-bendici-derek-dev:8080
+}
