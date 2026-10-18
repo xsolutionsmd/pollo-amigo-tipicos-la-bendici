@@ -32,3 +32,8 @@
 /* Missing URLs retain the same typography, navigation and recovery actions. */
 .missing-page{min-height:72svh;padding-block:200px 100px}.missing-page h1{font-size:clamp(56px,7vw,90px);max-width:850px}.missing-page p{max-width:580px;margin-top:28px}.recovery-links{display:flex;flex-wrap:wrap;gap:16px;margin-top:36px}.recovery-links .button{font-size:22px;min-width:150px}
 @media(max-width:799px){.missing-page{padding-block:150px 70px}.recovery-links{display:grid;grid-template-columns:1fr}.recovery-links .button{width:100%}}
+.category-content .menu-item-with-photo{display:grid;grid-template-columns:144px minmax(0,1fr);align-items:start;gap:22px}
+.menu-item-photo{display:block;width:144px;height:108px;object-fit:contain;object-position:center}
+.menu-item-copy{min-width:0}
+@media(max-width:599px){.category-content .menu-item-with-photo{grid-template-columns:104px minmax(0,1fr);gap:10px 16px}.menu-item-photo{width:104px;height:88px;grid-column:1;grid-row:1}.menu-item-copy{display:contents}.menu-item-copy h3{grid-column:2;grid-row:1;align-self:center}.menu-item-copy p{grid-column:1/-1;margin-top:0}}
+@media(max-width:380px){.category-content .menu-item-with-photo{grid-template-columns:88px minmax(0,1fr);gap:12px}.menu-item-photo{width:88px;height:78px}}
