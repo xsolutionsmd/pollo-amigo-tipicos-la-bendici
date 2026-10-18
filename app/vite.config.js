@@ -8,6 +8,7 @@ export default defineConfig({
         home: fileURLToPath(new URL('./index.html', import.meta.url)),
         menu: fileURLToPath(new URL('./menu/index.html', import.meta.url)),
         visit: fileURLToPath(new URL('./visit/index.html', import.meta.url)),
+        notFound: fileURLToPath(new URL('./404.html', import.meta.url)),
       },
     },
   },

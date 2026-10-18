@@ -31,3 +31,8 @@ The complete destinations are enforced by `app/xs-check.json`. The old unrelated
 The mobile navigation uses a native modal dialog with initial focus, Tab containment, Escape/close and restored trigger focus. Six native menu disclosures expand/collapse independently. All 40 accepted menu entries are informational and price-free. Phone and ordering remain accessible alternatives. No pending backend integration is hidden behind a decorative control.
 
 Initial Astra validation on source `cbb047ac335e6baafc7e7a9086d9c542f403644f`: lifecycle container checks passed; an isolated, network-disabled, read-only runtime passed all three routes, health, exact uncached revision, authentic-image response, noindex, and real 404s for missing pages/assets and dotfiles. Desktop and 375px mobile sanity checks found no overflow or broken images; dialog open/close/focus return and menu expansion passed. Detailed private receipts are retained with the build. Repeat the focused release checks after refinement.
+
+
+## Route recovery
+
+Directory redirects use relative Location values so the browser retains its public HTTPS origin behind the gateway. Bare `/menu` and `/visit` canonicalize to `/menu/` and `/visit/`. Missing paths and assets return HTTP 404 with the authored missing-page view and Home/Menu/Visit recovery, never an ordinary Home response. No submitted data or backend state is involved.
