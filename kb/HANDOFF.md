@@ -26,9 +26,11 @@ Pipeline status (generated 2026-10-18T18:15:25.087341+00:00):
 
 ## Current checkpoint — October 18, 2026
 
+Resumed scoped work: Derek requested broader photo coverage, including confident visual/contextual matches when exact item labels are absent. The expanded pass supports 36 of 40 entries: 27 confirmed associations and nine likely associations, with source reasoning and crop coordinates retained. The remaining gaps are Vegetarian Burrito, Chicken Soup, Beef Soup and Flan. Preserve the accepted design and main/Abdul treatment. The abandoned dispatcher-grant wait is superseded by direct release authorization; technical locks, current health, protected checks and single-writer ownership still apply.
+
 The normal server-first workflow is complete and coordinator-accepted. Independent Sol High recheck passed **67 cases with no findings** at `5b9be3670be8593835b3d82fe9a60cce2ed77449`; the subsequent documentation release `f8fb126b8c803adde09993b443ca52430fafcfaf` passed final verification on all three environments with unchanged product source. Media and final team URL delivery were verified.
 
-This branch now carries the final **Derek-only menu-photo variation**: 27 source-matched dish images beside the existing menu, with 13 unmatched entries kept as text. Full photos are contained without cropping; phone descriptions use the available row width. All 40 names/descriptions, six native disclosures and existing destinations are retained. Its own focused live review and final revision receipts accompany the scoped update; initial local checks are recorded in validation.
+This branch carries the final **Derek-only menu-photo variation**: 36 supported dish images beside the existing menu, with four unmatched entries kept as text. Seven sides use precise crops from this business's plated dishes; the remaining frames are kept intact. Phone descriptions use the available row width. All 40 names/descriptions, six native disclosures and existing destinations are retained. Its own focused live review and final revision receipts accompany the scoped update; local checks are recorded in validation.
 
 - Production: https://polloamigo.xsolutionsmd.com
 - Derek: https://d-polloamigo.xsolutionsmd.com
@@ -43,7 +45,7 @@ Home `/`, Menu `/menu/`, Visit `/visit/` and the authored missing-page recovery 
 
 All 40 live-platform menu entries remain in six categories (3/6/3/9/7/12), with existing DoorDash and Uber Eats destinations. Main and Abdul retain the reference's text-only item rows. The sourced identity is Pollo Amigo – Típicos la Bendición at 714 York Rd, Towson, 410-494-0061. This static site adds no custom checkout, payment or customer transaction. No sale, individual operator identity or owner-approved menu is established.
 
-The quick final food-identity pass compared the existing item index, provenance, original contact sheets and actual rendered desktop/mobile crops. No concrete dish correction was needed. The library has 34 originals: 27 DoorDash, three Facebook, one Maps interior and three Restaurantguru menu graphics. There are 27 mapped food photos and 13 exact-photo gaps; all nine source families were checked with bounded, honestly recorded coverage. Concealed fillings, recipes, portions and side inclusions remain unproven. Salmon is not substituted for Fresh Salmon Filet. See [media](media.md).
+The normal final pass had 34 originals and 27 exact mappings. The expanded pass retained those originals and added one historical Yelp quarter-chicken photo, giving 35 originals. It supports nine further likely mappings: quarter chicken, a Salmon/Fresh Salmon Filet variant and seven sides isolated from existing plates. Exact sauce, current presentation and side-order quantities remain unproven. Source labels and inference are distinguished in provenance. All nine source families retain bounded, honestly recorded coverage. See [media](media.md).
 
 The current media ZIP was delivered to Abdul through the established team channel and verified after reload; an authenticated download matched its exact 14,869,796 bytes and SHA-256. Detailed file/message receipts remain private. The canonical team URL directory already has the correct three short URLs; its matching persisted readback was reused without editing. The original first-live notification is retained and must not be resent. Final URL/message verification is recorded privately after the documentation release.
 
@@ -53,7 +55,7 @@ Private evidence: `runs/live-review-r1.md` and `.json`, `runs/fixes-r1.md` and i
 
 Normal final handoff is accepted. The scoped update `derek-menu-photos-20261018` owns this last addition and its focused live review, correction/verification and final URL delivery. Use its private receipts for the actual accepted revision. Preserve this branch-only difference during future syncs; never merge these menu photos into main or Abdul. All future work starts by checking the branch and live version.
 
-Unknowns remain omitted: current in-store prices, individual operator name, holiday exceptions, six dated print-only dishes, ambiguous variants and 13 exact dish photos. No invented allergens, prices, ratings or operational promises.
+Unknowns remain omitted: current in-store prices, individual operator name, holiday exceptions, six dated print-only dishes, exact variant equivalence and the four remaining dish photographs. No invented allergens, prices, ratings or operational promises.
 
 ## Cleanup
 
